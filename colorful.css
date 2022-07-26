@@ -1,0 +1,39 @@
+body {
+    background-image: url("");
+    background-color: #E6CEA0;
+    
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: xx-large;
+    border: 6px solid burlywood;
+    border-style: inset;
+}
+
+.points {
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    right: 250px;
+}
+.dot {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url("https://bakinghow.com/wp-content/uploads/moisten-cookie-dough2.jpg");
+    position: relative;
+}
+
+.store {
+    float: right;
+    width: 25.33%;
+    padding: 15px;
+    border: 6px solid burlywood;
+    position: relative;
+    bottom: 650px;
+}
