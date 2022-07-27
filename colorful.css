@@ -27,6 +27,7 @@ body {
     display: inline-block;
     background-image: url("https://bakinghow.com/wp-content/uploads/moisten-cookie-dough2.jpg");
     position: relative;
+    right: 30px;
 }
 
 .store {
@@ -36,4 +37,26 @@ body {
     border: 6px solid burlywood;
     position: relative;
     bottom: 650px;
+    
+}
+
+.store2 {
+    float: right;
+    width: 25.33%;
+    padding: 15px;
+    border: 6px solid burlywood;
+    position: relative;
+    bottom: 450px;
+    left: 520px;
+    
+}
+
+.cookie {
+    background: transparent;
+    border: none;
+    
+}
+
+button {
+    cursor: pointer;
 }
