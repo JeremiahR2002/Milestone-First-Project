@@ -60,3 +60,14 @@ body {
 button {
     cursor: pointer;
 }
+
+.current {
+    position: relative;
+    left: 141px;
+}
+
+.totalcookies {
+    position: relative;
+    left: 14px;
+    top: 68px;
+}

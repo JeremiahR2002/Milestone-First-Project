@@ -1,0 +1,5 @@
+I had many problems while working on this project, and overcame things I did not know aswell as learn other things that will help me in the future.
+
+In HTMl I had to learn how to make a circle, which you can use the span class "dot" and add properties in the css to manipulate it to your liking, and I also had difficulty in setting up the button and how can i make it so the cookie still shows, but, the button itself is invisible, which the property transparent was able to fix.
+
+making the first upgrade in javascript was very difficult for me. I was gonna use an infinite loop but i was advised not to because that can lead to crashing the brower, so instead i was pushed towards different solutions, and which i chose SetInterval. SetInterval was nice, but, of course at first I didnt really understand it so when I first used set interval it was creating over 500,000 cookies every ten seconds, which was not the goal we had. After some support and looking thoroughly at the code it occured that SetInterval counted everysingle "i", so in order to fix this I changed it to i < 1, fixing it properly finally.
