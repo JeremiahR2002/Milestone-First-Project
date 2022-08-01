@@ -68,6 +68,17 @@ button {
 
 .totalcookies {
     position: relative;
-    left: 14px;
-    top: 68px;
+    right: 30px;
+    top: 69px;
+}
+
+.lifetime {
+    position: relative;
+    right: 57px;
+    bottom: 75px;
+}
+
+.somuchcookies {
+    position: relative;
+    left: 141px;
 }

@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="colorful.css">
         <title>Cookie Clicker</title>
-        
     </head>
     <body>
 
@@ -17,7 +16,8 @@
 <div class="points">
     <h2 class="totalcookies">Total Cookies:</h2>
     <h2 class="current">0</h2>
-    <h2 clacc="lifetime"> Lifetime Cookies: 0</h2>
+    <h2 class="somuchcookies">0</h2>
+    <h2 class="lifetime"> Lifetime Cookies:</h2>
 </div>
 <div style="text-align:center">
  <!-- Span class is used to create the cookie while the button tag encloses it while being transparent to simulate on clicking a cookie https://www.w3schools.com/howto/howto_css_circles.asp-->
@@ -31,6 +31,17 @@
     <h2> Doubles the amount of cookies you get per click! </h2>
     <button class="buy2">Click to Purchase!</button>
 </div>
+<audio id="cookiemusic">
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<button onclick="play()" type="button">Play Music</button>
+<button onclick="pause()" type="button">Turn Off Music</button>
+<script>
+    let cookiemusic = document.getElementById("cookiemusic");
+    function play() {
+        cookiemusic.play();
+    }
+</script>
 <script src="click.js"></script>
     </body>
 </html>
