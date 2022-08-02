@@ -8,11 +8,17 @@
         <title>Cookie Clicker</title>
     </head>
     <body>
-
+<audio id="cookiemusic" loop>
+            <source src="music.mp3" type="audio/mpeg">
+</audio>
+        <button id="music" onclick="play()" type="button">Play Music</button>
+        <button id="music" onclick="off()" type="button">Turn Off Music</button>
 <div class="center">
     <h1>Welcome to Cookie Clicker!</h1>
     <p>Click the cookie to obtain cookies, and use them to upgrade your clicking and get more!</p>
 </div>
+<img class="stand" src="Cookiestand.png" alt="a stickman kid buying cookies for 5 dollars">
+<img class="farm" src="cookiefarm.png" alt="farm that grows cookies!">
 <div class="points">
     <h2 class="totalcookies">Total Cookies:</h2>
     <h2 class="current">0</h2>
@@ -29,11 +35,6 @@
     <h2> Own a cookie farm! you get 15 cookies every 20 seconds. </h2>
     <button class="buy2">Click to Purchase!</button>
 </div>
-<audio id="cookiemusic" loop>
-    <source src="music.mp3" type="audio/mpeg">
-</audio>
-<button id="music" onclick="play()" type="button">Play Music</button>
-<button id="music" onclick="off()" type="button">Turn Off Music</button>
 <script>
     let cookiemusic = document.getElementById("cookiemusic");
     function play() {

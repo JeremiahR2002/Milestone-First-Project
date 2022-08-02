@@ -90,3 +90,14 @@ button {
     
 }
 
+.stand {
+    position:absolute;
+    opacity: 0%;
+}
+
+.farm {
+    position: absolute;
+    left: 1425px;
+    top: 700px;
+    opacity: 0%;
+}
