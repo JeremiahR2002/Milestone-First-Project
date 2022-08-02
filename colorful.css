@@ -28,6 +28,7 @@ body {
     background-image: url("https://bakinghow.com/wp-content/uploads/moisten-cookie-dough2.jpg");
     position: relative;
     right: 30px;
+    bottom: 40px;
 }
 
 .store {
@@ -54,7 +55,7 @@ body {
 .cookie {
     background: transparent;
     border: none;
-    
+    bottom: 40px;
 }
 
 button {
@@ -63,13 +64,14 @@ button {
 
 .current {
     position: relative;
-    left: 141px;
+    left: 260px;
+    bottom: 60px;
 }
 
 .totalcookies {
     position: relative;
-    right: 30px;
-    top: 69px;
+    left: 100px;
+    top: 10px;
 }
 
 .lifetime {
@@ -82,3 +84,9 @@ button {
     position: relative;
     left: 141px;
 }
+
+.play {
+    position: relative;
+    
+}
+

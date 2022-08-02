@@ -16,8 +16,6 @@
 <div class="points">
     <h2 class="totalcookies">Total Cookies:</h2>
     <h2 class="current">0</h2>
-    <h2 class="somuchcookies">0</h2>
-    <h2 class="lifetime"> Lifetime Cookies:</h2>
 </div>
 <div style="text-align:center">
  <!-- Span class is used to create the cookie while the button tag encloses it while being transparent to simulate on clicking a cookie https://www.w3schools.com/howto/howto_css_circles.asp-->
@@ -28,18 +26,22 @@
     <button class="buy">Click To Purchase!</button>
 </div>
 <div class="store2">
-    <h2> Doubles the amount of cookies you get per click! </h2>
+    <h2> Own a cookie farm! you get 15 cookies every 20 seconds. </h2>
     <button class="buy2">Click to Purchase!</button>
 </div>
-<audio id="cookiemusic">
+<audio id="cookiemusic" loop>
     <source src="music.mp3" type="audio/mpeg">
 </audio>
-<button onclick="play()" type="button">Play Music</button>
-<button onclick="pause()" type="button">Turn Off Music</button>
+<button id="music" onclick="play()" type="button">Play Music</button>
+<button id="music" onclick="off()" type="button">Turn Off Music</button>
 <script>
     let cookiemusic = document.getElementById("cookiemusic");
     function play() {
         cookiemusic.play();
+    }
+
+    function off() {
+        cookiemusic.pause();
     }
 </script>
 <script src="click.js"></script>
