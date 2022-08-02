@@ -25,7 +25,7 @@ body {
     background-color: burlywood;
     border-radius: 50%;
     display: inline-block;
-    background-image: url("https://bakinghow.com/wp-content/uploads/moisten-cookie-dough2.jpg");
+    background-image: url("itsacookie.png");
     position: relative;
     right: 30px;
     bottom: 40px;
@@ -117,5 +117,19 @@ button {
     position: absolute;
     left: 180px;
     bottom: 3px;
+    opacity: 0%;
+}
+
+.cookieobtained {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    opacity: 0%;
+}
+
+.cookieobtained2 {
+    position: absolute;
+    right: 30px;
+    bottom: 220px;
     opacity: 0%;
 }
