@@ -6,6 +6,8 @@ function main() {
     let cookieamount = 0;
     let cookiestand = document.querySelector('.stand');
     let cookiefarm = document.querySelector('.farm');
+    let sorry1 = document.querySelector('.sorry1');
+    let sorry2 = document.querySelector('.sorry2');
     // function increasecookies(){
     //     cookieamount++;
     //     currentcookies.textContent = cookieamount;
@@ -29,7 +31,9 @@ function main() {
             10000);
         }
        } else {
+        sorry1.style.opacity = '100%';
         console.log("Not Enough Cookies to Buy!");
+        sorry()
        }
     });
 
@@ -38,16 +42,29 @@ function main() {
          console.log("second upgrade purchased!");
          cookieamount -= 150;
          currentcookies.textContent = cookieamount;
-         cookiefarm.style.opacity = '100%'
+         cookiefarm.style.opacity = '100%';
          for (var i = 0; i < 1; i++) {
              setInterval(() => {cookieamount += 15, currentcookies.textContent = cookieamount; }, 
              20000);
          }
         } else {
+         sorry2.style.opacity = '100%';
          console.log("Not Enough Cookies to Buy!");
+         sorry3()
         }
      });
 
+async function sorry() {
+    setTimeout(() => { 
+        sorry1.style.opacity = '0';
+    }, 5000);
+}
+
+async function sorry3() {
+    setTimeout(() => {
+       sorry2.style.opacity = '0'; 
+    }, 5000);
+}
      // audio did not work here for some odd reason, had to script it in html
     // let cookiemusic = document.getElementById("cookiemusic");
     // function play() {
