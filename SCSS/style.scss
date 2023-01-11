@@ -1,0 +1,160 @@
+$primary : burlywood;
+$text : #aa5042;
+$oops : red;
+
+@import './cookies.scss';
+@import './dot.scss';
+@import './stores.scss';
+
+.buy {
+    background: $primary
+}
+
+.buy2 {
+    background: $primary;
+}
+
+h1 {
+    color: $text
+}
+
+body {
+    background-image: url("");
+    background-color: #E6CEA0;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: xx-large;
+    border: 6px solid $primary;
+    border-style: inset;
+    p {
+        color: $text
+    }
+}
+
+.leaderboard {
+    position: absolute;
+    right: 75px;
+    top: 0px;
+    border: 6px solid $primary;
+    font-size: small;
+}
+
+.points {
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    right: 250px;
+    color: $text;
+}
+
+
+// .store {
+//     float: right;
+//     width: 25.33%;
+//     padding: 15px;
+//     border: 6px solid $primary;
+//     position: relative;
+//     bottom: 650px;
+//     h2 {
+//         color: $text;
+//     }
+// }
+
+// .store2 {
+//     float: right;
+//     width: 25.33%;
+//     padding: 15px;
+//     border: 6px solid $primary;
+//     position: relative;
+//     bottom: 450px;
+//     left: 520px;
+//     h2 {
+//         color: $text;
+//     }
+// }
+
+// .cookie {
+//     background: transparent;
+//     border: none;
+//     bottom: 40px;
+// }
+
+button {
+    cursor: pointer;
+}
+
+.current {
+    position: relative;
+    left: 260px;
+    bottom: 60px;
+}
+
+// .totalcookies {
+//     position: relative;
+//     left: 100px;
+//     top: 10px;
+// }
+
+.lifetime {
+    position: relative;
+    right: 57px;
+    bottom: 75px;
+}
+
+// .somuchcookies {
+//     position: relative;
+//     left: 141px;
+// }
+
+.play {
+    position: relative;
+    
+}
+
+.stand {
+    position:absolute;
+    opacity: 0%;
+}
+
+.farm {
+    position: absolute;
+    left: 1425px;
+    top: 700px;
+    opacity: 0%;
+}
+
+.sorry1 {
+    color: $oops;
+    font-size: medium;
+    position: absolute;
+    left: 180px;
+    bottom: 3px;
+    opacity: 0%;
+}
+
+.sorry2 {
+    color: $oops;
+    font-size: medium;
+    position: absolute;
+    left: 180px;
+    bottom: 3px;
+    opacity: 0%;
+}
+
+// .cookieobtained {
+//     position: absolute;
+//     left: 400px;
+//     top: 400px;
+//     opacity: 0%;
+// }
+
+// .cookieobtained2 {
+//     position: absolute;
+//     right: 30px;
+//     bottom: 220px;
+//     opacity: 0%;
+// }

@@ -1,0 +1,24 @@
+.store {
+    float: right;
+    width: 25.33%;
+    padding: 15px;
+    border: 6px solid $primary;
+    position: relative;
+    bottom: 650px;
+    h2 {
+        color: $text;
+    }
+}
+
+.store2 {
+    float: right;
+    width: 25.33%;
+    padding: 15px;
+    border: 6px solid burlywood;
+    position: relative;
+    bottom: 450px;
+    left: 520px;
+    h2 {
+        color: #aa5042;
+      }
+  }

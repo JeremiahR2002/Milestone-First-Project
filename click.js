@@ -29,7 +29,7 @@ function main() {
         currentcookies.textContent = cookieamount;
         cookiestand.style.opacity = '100%';
         for (var i = 0; i < 1; i++) {
-            setInterval(() => {cookieamount += 5, obtainedcookies.style.opacity = '100%', obtained(), currentcookies.textContent = cookieamount; }, 
+            setInterval(() => {cookieamount += 5; obtainedcookies.style.opacity = '100%'; obtained(); console.log("First Upgrade"); currentcookies.textContent = cookieamount; }, 
             5000);
         }
        } else {
@@ -46,7 +46,7 @@ function main() {
          currentcookies.textContent = cookieamount;
          cookiefarm.style.opacity = '100%';
          for (var i = 0; i < 1; i++) {
-             setInterval(() => {cookieamount += 15, obtainedcookies2.style.opacity = '100%', obtained2(), currentcookies.textContent = cookieamount; }, 
+             setInterval(() => {cookieamount += 15; obtainedcookies2.style.opacity = '100%'; obtained2(); console.log("Second Upgrade"); currentcookies.textContent = cookieamount; }, 
              10000);
          }
         } else {
@@ -71,13 +71,13 @@ async function sorry3() {
 async function obtained() {
     setTimeout(() => {
         obtainedcookies.style.opacity='0%';
-    }, 250)
+    }, 550)
 }
 
 async function obtained2() {
     setTimeout(() => {
         obtainedcookies2.style.opacity='0%';
-    }, 250)
+    }, 550)
 }
      // audio did not work here for some odd reason, had to script it in html
     // let cookiemusic = document.getElementById("cookiemusic");

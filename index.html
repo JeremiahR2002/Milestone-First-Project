@@ -5,17 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="colorful.css">
+        <link rel="stylesheet" href="./SCSS/style.css" />
         <title>Cookie Clicker</title>
     </head>
     <body>
-<audio id="cookiemusic" loop>
+<!-- <audio id="cookiemusic" autoplay loop>
             <source src="music.mp3" type="audio/mpeg">
-</audio>
+</audio> -->
         <button id="music" onclick="play()" type="button">Play Music</button>
         <button id="music" onclick="off()" type="button">Turn Off Music</button>
 <div class="center">
     <h1>Welcome to Cookie Clicker!</h1>
     <p>Click the cookie to obtain cookies, and use them to upgrade your clicking and get more!</p>
+</div>
+<!-- <div class="leaderboard">
+    <h1>LeaderBoard</h1>
+    <h2 class="leaderboardnames">a</h2> -->
 </div>
 <img class="stand" src="Cookiestand.png" alt="a stickman kid buying cookies for 5 dollars">
 <img class="farm" src="cookiefarm.png" alt="farm that grows cookies!">
@@ -49,6 +54,11 @@
         cookiemusic.pause();
     }
 </script>
+<!-- <script>
+    let players = [ 5286, 623, 0];
+    players.sort();
+    document.getElementById("leaderboardnames").innerhtml
+</script> -->
 <script src="click.js"></script>
     </body>
 </html>

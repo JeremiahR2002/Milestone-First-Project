@@ -1,4 +1,5 @@
-body {
+
+/* body {
     background-image: url("");
     background-color: #E6CEA0;
     
@@ -11,6 +12,14 @@ body {
     font-size: xx-large;
     border: 6px solid burlywood;
     border-style: inset;
+}
+
+.leaderboard {
+    position: absolute;
+    right: 75px;
+    top: 0px;
+    border: 6px solid burlywood;
+    font-size: small;
 }
 
 .points {
@@ -132,4 +141,4 @@ button {
     right: 30px;
     bottom: 220px;
     opacity: 0%;
-}
+} */
